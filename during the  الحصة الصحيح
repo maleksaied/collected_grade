@@ -1,0 +1,12 @@
+def  collected_grade(score):
+
+ if score >= 90 and score <= 100:
+    print("n") 
+ elif score >= 80 and score < 89:
+    print("d")
+ elif score >= 70 and score < 79:
+    print("m") 
+ else:
+    print("n") 
+scores=int(input("enter a scores "))
+print(scores)
